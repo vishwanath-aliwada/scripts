@@ -1,0 +1,1 @@
+Invoke-Command -ScriptBlock { Start-Process 'C:\Program Files\Tenable\Nessus Agent\nessuscli.exe' -ArgumentList 'agent link --key=9d4777f71733214d2a35566bd5f4bee3fda2b19462083c5f692dc86a2306d771 --host=cloud.tenable.com --port=443 --groups="Corp_Cloud_AZR_GCH_IVL_EUC"' -Passthru -NoNewWindow }
